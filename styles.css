@@ -91,7 +91,7 @@ nav a:hover { color: var(--primary-color); }
 /* --- Hero Section --- */
 .hero {
     height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://ed-cantu.github.io/photo-1460602692976-8eab38c11f9d.jpg'); /* External brick image */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://ed-cantu.github.io/images/heroimage.jpg'); /* External brick image */
     background-size: cover;
     background-position: center;
     display: flex;
