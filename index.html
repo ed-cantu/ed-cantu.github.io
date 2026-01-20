@@ -1,23 +1,108 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
-  </head>
-  <body style="background-color:powderblue; color:red; font-family:Arial; font-size:10px">
-    <h1 style="background-color:white; font-family:Comic Sans MS; font-size:22px;">Grumpy cats galore</h1>
-    <img height="150px" width="250px" src="https://media.wired.com/photos/5cdefb92b86e041493d389df/191:100/w_1500,h_785,c_limit/Culture-Grumpy-Cat-487386121.jpg" alt="My grumpy cat">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Brickworks | Quality Clay & Concrete Bricks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <p>Even though its grumpy, we still love him</p>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">APEX BRICKWORKS</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact" class="btn-nav">Get a Quote</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <ul style="color:black;"> <!-- This is a comment -->
-      <li style="background-color:yellow;">Loves to play</li>
-      <li style="background-color:white;">Cuddles</li>
-      <li style="background-color:yellow;">Is just plain fun</li>
-    </ul>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Building the Future, One Brick at a Time.</h1>
+            <p>Premium manufacturing of red clay, concrete, and paving bricks for commercial and residential construction.</p>
+            <a href="#products" class="btn-primary">View Our Catalog</a>
+        </div>
+    </section>
 
-    <p>So as you can see the cat is awesome.</p>
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Why Choose Apex?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Durability</h3>
+                    <p>Kiln-fired at over 1000°C, our bricks are engineered to withstand decades of harsh weather.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Eco-Friendly</h3>
+                    <p>Sustainably sourced clay and energy-efficient manufacturing processes.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Custom Batches</h3>
+                    <p>We create custom colors and textures for restoration projects and unique architectural designs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <p>Read more about having a cat at <a href="https://www.bcit.ca/">CATS 101</a> to learn even more.</p>
-  </body>
+    <section id="products" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img" style="background-color: #8B4513;"></div> <div class="product-info">
+                        <h3>Classic Red Clay</h3>
+                        <p>The standard for residential housing. Timeless look with high thermal mass.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-color: #708090;"></div> <div class="product-info">
+                        <h3>Industrial Concrete</h3>
+                        <p>High-load bearing blocks designed for commercial foundations and structural walls.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-color: #A0522D;"></div> <div class="product-info">
+                        <h3>Landscape Pavers</h3>
+                        <p>Interlocking pavers perfect for driveways, patios, and garden pathways.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container contact-wrapper">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>Ready to start your project? Call us or fill out the form for a bulk order quote.</p>
+                <p><strong>📍 Address:</strong> 123 Kiln Road, Industrial District</p>
+                <p><strong>📞 Phone:</strong> (555) 123-4567</p>
+                <p><strong>📧 Email:</strong> sales@apexbrickworks.com</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <select>
+                    <option value="" disabled selected>Interested in...</option>
+                    <option value="clay">Red Clay Bricks</option>
+                    <option value="concrete">Concrete Blocks</option>
+                    <option value="pavers">Pavers</option>
+                </select>
+                <textarea rows="5" placeholder="Project Details / Quantity needed"></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Apex Brickworks. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
